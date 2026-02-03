@@ -1,6 +1,6 @@
 const toggle = document.getElementById("navigatorToggle")
 
-chrome.storage.sync.get({ showNavigator: true }, (data) => {
+chrome.storage.sync.get({ showNavigator: false }, (data) => {
     toggle.checked = data.showNavigator
 })
 
