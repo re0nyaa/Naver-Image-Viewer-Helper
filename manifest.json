@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Naver Image Viewer Helper",
+    "name": "Naver Cafe Image Viewer Helper",
     "version": "1.0",
     "permissions": ["storage"],
     "action": {
