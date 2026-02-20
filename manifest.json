@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Naver Cafe Image Viewer Helper",
-    "version": "1.0",
+    "version": "1.0.01",
     "permissions": ["storage"],
     "action": {
         "default_popup": "popup.html"
