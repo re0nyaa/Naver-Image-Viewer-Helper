@@ -9,3 +9,9 @@ toggle.addEventListener("change", () => {
         showNavigator: toggle.checked,
     })
 })
+
+chrome.runtime.onInstalled.addListener(() => {
+    chrome.storage.sync.set({
+        showNavigator: false,
+    })
+})
